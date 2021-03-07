@@ -7,8 +7,6 @@ div.style.left = divX + 'px';
 div.style.top = divY + 'px';
 
 let dragActive = false;
-let insertDivX;
-let insertDivY;
 
 div.addEventListener('mousedown', (e) => {
 	div.style.backgroundColor = 'steelblue';
